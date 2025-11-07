@@ -91,39 +91,26 @@ Two types of plots were generated and uploaded to the Hopsworks Model Registry:
 > allowing the model to learn daily pollution persistence patterns.  
 > This addition reduces noise and leads to a substantial drop in MSE.
 
----
-
-## 🗂️ 6. Hopsworks Components Overview
-
-| Component | Name / Version | Status |
-|------------|----------------|---------|
-| **Feature Group** | `air_quality v2`, `weather v1` | ✅ Registered |
-| **Feature View** | `air_quality_fv_v2 v3` | ✅ Active |
-| **Model Registry** | `air_quality_xgboost_model_C v2` | ✅ Saved |
-| **Artifacts Uploaded** | `model.json`, `schema.json`, `pm25_hindcast.png`, `feature_importance.png` | ✅ Uploaded |
 
 ---
 
-## ✅ 7. Summary
+## ✅ 6. Process
 
 | Task | Status |
 |------|---------|
 | Backfill feature pipeline | ✅ Done |
 | Daily feature pipeline | ✅ Done |
 | Training pipeline | ✅ Done |
-| Batch inference dashboard | ✅ Done |
-| Lag feature extension (C grade) | ✅ Done |
-| README & explanation | ✅ Completed |
+| Batch inference dashboard | ✅ OnGoing |
+| UI | ✅ OnGoing |
+| Lag feature extension (C grade) | ✅ OnGoing |
+| README & explanation | ✅ OnGoing |
+
 
 ---
 
-### 🏁 Final Remarks
-The model with lagged PM2.5 features demonstrates that **temporal dynamics** are crucial for improving air quality predictions.  
-While R² remains slightly negative due to data variability, the large reduction in MSE confirms that lag-based features provide meaningful predictive power.
+✍️ *Author: Xin Tang & Bite Chu (KTH ID2223 — Lab 1 Air Quality Project, 2025)*
 
----
-
-✍️ *Author: Xin Tang (KTH ID2223 — Air Quality Project, 2025)*
 
 
 
