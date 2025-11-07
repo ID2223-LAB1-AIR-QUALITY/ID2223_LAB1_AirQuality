@@ -78,10 +78,10 @@ To improve performance, we added **three new lagged PM2.5 features**:
 
 ## 📊 4. Results & Visualizations
 
-Two plots were generated and uploaded to the Hopsworks Model Registry:
+Two types of plots were generated and uploaded to the Hopsworks Model Registry:
 
-1. 🟢 **Hindcast graph (`pm25_hindcast.png`)** — showing predicted vs. true PM2.5 levels.  
-2. 🟣 **Feature importance plot (`feature_importance.png`)** — confirming that lag features contributed most to prediction accuracy.
+1. 🟢 **Hindcast graph (e.g. `pm25_hindcast.png`)** — showing predicted vs. true PM2.5 levels.  
+2. 🟣 **Feature importance plot (e.g. `feature_importance.png`)** — confirming that lag features contributed most to prediction accuracy.
 
 ---
 
@@ -124,6 +124,7 @@ While R² remains slightly negative due to data variability, the large reduction
 ---
 
 ✍️ *Author: Xin Tang (KTH ID2223 — Air Quality Project, 2025)*
+
 
 
 
