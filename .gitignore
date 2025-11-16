@@ -168,3 +168,7 @@ cython_debug/
 
 snurran.sh
 .DS_Store
+
+# Notebook cache and generated notebooks
+notebooks/airquality/.cache.sqlite
+notebooks/airquality/*.nbconvert.ipynb
