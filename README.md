@@ -103,13 +103,14 @@ Two types of plots were generated and uploaded to the Hopsworks Model Registry:
 | Training pipeline | ✅ Done |
 | Batch inference dashboard | ✅ Done |
 | UI | ✅ Done |
-| Lag feature extension (C grade) | ✅ OnGoing |
-| README & explanation | ✅ OnGoing |
+| Lag feature extension (C grade) | ✅ Done |
+| README & explanation | ✅ Done |
 
 
 ---
 
 ✍️ *Author: Xin Tang & Bite Chu (KTH ID2223 — Lab 1 Air Quality Project, 2025)*
+
 
 
 
